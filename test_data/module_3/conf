@@ -1,0 +1,10 @@
+#possible data_source_type = file_system or URL or database
+data_source_type=database
+database_url=
+database_username=
+database_password=
+
+#you have to mention the column names for column names ordering
+search_sql=select login_name, provider_code from login
+
+start_from_line_no=1

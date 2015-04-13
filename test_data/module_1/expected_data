@@ -1,0 +1,9 @@
+#data_type, required, regex
+#specific column constraints
+column1=string,true,[a-zA-Z]
+
+#data_type, required, regex
+column2=date,true,dd-mm-yyyy
+
+#data_type, required, regex
+column3=number,false,[0-9]

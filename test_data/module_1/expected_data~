@@ -1,0 +1,6 @@
+#data_type, required, regex
+#all will include common constraints
+all=required
+#specific column constraints
+#data_type, required, regex
+column1=string,true,[a-zA-Z]

@@ -1,0 +1,17 @@
+#possible data_source_type = file_system or URL or database
+data_source_type=URL
+login_url=http://staging.therapbd.net
+login_username=ger_all
+login_password=therap
+login_provider_code=SQA
+
+source_data_search_url=http://staging.therapbd.net/ma/search/idf
+
+#It could be either GET or POST
+source_data_retrieval_method=POST
+
+source_data_search_post_params=[formID=abcd,date=1/2/2014,status=active]
+
+search_result_excel_url=http://staging.therapbd.net/ma/search/idf/search.xls
+
+start_from_line_no=1
